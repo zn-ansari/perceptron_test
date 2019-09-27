@@ -1,6 +1,6 @@
 %run this script to load data, and normalize data
 clear all
-load('hw1_mnist35.mat')
+load('mnist35.mat')
 %show 4 training samples
 subplot(2,2,1)
 image(reshape(trainx(12,:),28,28)');
